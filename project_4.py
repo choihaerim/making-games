@@ -640,7 +640,7 @@ for i in range(lane_count):
 score1 = 0
 crash = True
 ###############################################################################################################
-    
+
 def runGame():
     global d_count, s_num, s_shot, s_explode, s_destroy, screen, scr, screen_width, screen_height, select_sound,\
     player, rectPlayer, star, rectStar, score,\
@@ -1061,17 +1061,17 @@ def runGame():
                     
                     ####################################
                     for i in range(1,10):
-                        globals()['photo{}'.format(i)] = PhotoImage(file="./"+str(i)+".gif",master=window)
+                        globals()['photo{}'.format(i)] = PhotoImage(file="./"+str(i)+".gif", master=window)
                 
-                    lbl1 = Button(window, image=photo1,command = lambda: ClickNum(1))
-                    lbl2 = Button(window, image=photo2,command = lambda: ClickNum(2))
-                    lbl3 = Button(window, image=photo3,command = lambda: ClickNum(3))
-                    lbl4 = Button(window, image=photo4,command = lambda: ClickNum(4))
-                    lbl5 = Button(window, image=photo5,command = lambda: ClickNum(5))
-                    lbl6 = Button(window, image=photo6,command = lambda: ClickNum(6))
-                    lbl7 = Button(window, image=photo7,command = lambda: ClickNum(7))
-                    lbl8 = Button(window, image=photo8,command = lambda: ClickNum(8))
-                    lbl9 = Button(window, image=photo9,command = lambda: ClickNum(9))
+                    lbl1 = Button(window, image=photo1, command = lambda: ClickNum(1))
+                    lbl2 = Button(window, image=photo2, command = lambda: ClickNum(2))
+                    lbl3 = Button(window, image=photo3, command = lambda: ClickNum(3))
+                    lbl4 = Button(window, image=photo4, command = lambda: ClickNum(4))
+                    lbl5 = Button(window, image=photo5, command = lambda: ClickNum(5))
+                    lbl6 = Button(window, image=photo6, command = lambda: ClickNum(6))
+                    lbl7 = Button(window, image=photo7, command = lambda: ClickNum(7))
+                    lbl8 = Button(window, image=photo8, command = lambda: ClickNum(8))
+                    lbl9 = Button(window, image=photo9, command = lambda: ClickNum(9))
                     
 #                   for i in range(1,10):
 #                        globals()['lbl{}'.format(i)].pack(side=LEFT)
